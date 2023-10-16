@@ -1,0 +1,25 @@
+.wrapper{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 5%;
+    .cardsOption{
+        width: 250px;
+        height: 60px;
+        background:#fff;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border-radius: 12px;
+        cursor: pointer;
+        margin-top: 20px;
+        a{
+            font-size: 20px;
+            font-weight: 600;
+            color: #6C757D;
+            text-decoration: none;
+        }
+    }
+}
